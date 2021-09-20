@@ -1,6 +1,12 @@
 # Tidy-Tuesday
 A collection of the plots I have made for [#TidyTuesdays] (https://github.com/rfordatascience/tidytuesday). All of the code for the visualizations are included in the original files. All of the visualizations are also posted on my [Twitter](https://twitter.com/BlakeRobMills). Download the file for the best resolution!
 
+## [Australian Birds (31 Aug 2021)](https://twitter.com/BlakeRobMills/status/1432853452418437125)
+This visualization was meant to show the differences in the percentage of times some of the most popular species of birds were seen in urban and rural settings. The larger shapes represent the region average while the smaller points are individual observations. I based this color scheme around the Rainbow Lorikeet. This plot was similar to my last, but I felt it was a decenet represenation of the data. 
+
+[Full Plot](https://raw.githubusercontent.com/BlakeRMills/TidyTuesday/main/Lemurs%20(24%20Aug%202021)/LemurPlot.png), [Full Code](https://raw.githubusercontent.com/BlakeRMills/TidyTuesday/main/Australian%20Birds%20(31%20Aug%202021)/AustralianBirds.png)
+
+
 ## [Lemurs (24 Aug 2021)](https://twitter.com/BlakeRobMills/status/1430352785506193414)
 This was my first every #TidyTuesday posting. The visualization displays the average number of offspring and lifespan of different taxonomies of lemurs. I wanted to try an alternative to traditional legend, hence the colored words in the subtitle. This color scheme is based on the Moonrise3 palette from the `{wesanderson}` palette, however, I made some slight devations to color to fit what I was looking for. [Full Plot](https://raw.githubusercontent.com/BlakeRMills/TidyTuesday/main/Lemurs%20(24%20Aug%202021)/LemurPlot.png), [Full Code](https://github.com/BlakeRMills/TidyTuesday/blob/main/Lemurs%20(24%20Aug%202021)/TidyTuesday%2024%20Aug%202021%20Lemurs.R)
 
