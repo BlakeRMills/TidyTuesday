@@ -115,4 +115,4 @@ Annotated <- ggdraw(plot) +
   draw_image(image=Border, x=0.337, y=-0.364, width=0.326) 
   
 # Save 
-ggsave("~/Desktop/Choclate.png", height = 23, width = 25)
+ggsave("~/Desktop/Chocolate.png", height = 23, width = 25)
