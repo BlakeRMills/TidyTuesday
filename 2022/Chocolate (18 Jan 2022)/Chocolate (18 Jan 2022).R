@@ -3,6 +3,7 @@ chocolate <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/
 
 # Libraries
 library(tidyverse)
+library(ggdist)
 library(stringr)
 library(ggimage)
 library(showtext)
@@ -59,8 +60,8 @@ Annotated <- ggdraw(plot) +
   theme(plot.background = element_rect(fill="#fdf7ee", color="transparent")) +
   draw_label(label = "Twitter: @BlakeRobMills | Source: Flavors of Cacao | GitHub: BlakeRMills", x=0.5, y=0.022, color="#3b160c", fontface="bold", size=100, fontfamily = "Advent Pro") +
   draw_label(label = "Chocolate Ratings", x=0.5, y=0.95, color="#3b160c", fontface="bold", size=400, fontfamily = "Bungee Shade") +
-  draw_label(label = "Plots show number of cocoa beans and\ntheir rating distribution (scored 1-5) by\ncountry and colored by percentage of cocoa.", 
-             x=0.835, y=0.16, color="#5f2e1a", fontface="bold", size=100, fontfamily = "Advent Pro", lineheight=0.3) +
+  draw_label(label = "Plots show number of cocoa beans and\ntheir rating distribution (scored 1-5) by origin\ncountry and colored by percentage of cocoa.", 
+             x=0.832, y=0.16, color="#5f2e1a", fontface="bold", size=100, fontfamily = "Advent Pro", lineheight=0.3) +
  
   draw_text(text="Cocoa Percentage", x=0.83, y=0.093, size=125, family="Advent Pro", color="#3b160c", fontface="bold") +
   draw_line(x=c(0.68, 0.75), y=c(0.091, 0.091), size=1.5, color="#3b160c") +
