@@ -3,7 +3,6 @@ chocolate <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/
 
 # Libraries
 library(tidyverse)
-library(ggdist)
 library(stringr)
 library(ggimage)
 library(showtext)
