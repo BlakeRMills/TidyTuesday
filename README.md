@@ -1,5 +1,5 @@
 # Tidy-Tuesday
-A collection of the plots I have made for [#TidyTuesdays] (https://github.com/rfordatascience/tidytuesday). All of the code for the visualizations are included in the original files. All of the visualizations are also posted on my [Twitter](https://twitter.com/BlakeRobMills). Download the file for the best resolution!
+A collection of the plots I have made for [#TidyTuesdays](https://github.com/rfordatascience/tidytuesday). All of the code for the visualizations are included in the original files. All of the visualizations are also posted on my [Twitter](https://twitter.com/BlakeRobMills). Download the file for the best resolution!
 
 
 ## [Nursing Salaries (5 Oct 2021)](https://twitter.com/BlakeRobMills/status/1445624608099487747)
