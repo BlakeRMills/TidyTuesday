@@ -1,6 +1,14 @@
 # Tidy-Tuesday
 A collection of the plots I have made for [#TidyTuesdays](https://github.com/rfordatascience/tidytuesday). All of the code for the visualizations are included in the original files. All of the visualizations are also posted on my [Twitter](https://twitter.com/BlakeRobMills). Download the file for the best resolution!
 
+## [Dog Breeds (18 Jane 2022)](https://twitter.com/BlakeRobMills/status/1488607925388124161)
+
+[Full Plot](https://raw.githubusercontent.com/BlakeRMills/TidyTuesday/main/2022/Dog%20Breeds%20(1%20Feb%202022)/DogPlot.png), [Full Code](https://github.com/BlakeRMills/TidyTuesday/blob/main/2022/Dog%20Breeds%20(1%20Feb%202022)/Dogs%20(1%20Feb%202022).R)
+
+![DogPlot](https://raw.githubusercontent.com/BlakeRMills/TidyTuesday/main/2022/Dog%20Breeds%20(1%20Feb%202022)/DogPlot.png)
+
+
+
 ## [Chocolate (18 Jane 2022)](https://twitter.com/BlakeRobMills/status/1483827489331945480)
 
 [Full Plot](https://raw.githubusercontent.com/BlakeRMills/TidyTuesday/main/2022/Chocolate%20(18%20Jan%202022)/Chocolate.png), [Full Code](https://github.com/BlakeRMills/TidyTuesday/blob/main/2022/Chocolate%20(18%20Jan%202022)/Chocolate%20(18%20Jan%202022).R)
