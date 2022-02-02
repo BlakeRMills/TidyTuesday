@@ -1,6 +1,51 @@
 # Tidy-Tuesday
 A collection of the plots I have made for [#TidyTuesdays](https://github.com/rfordatascience/tidytuesday). All of the code for the visualizations are included in the original files. All of the visualizations are also posted on my [Twitter](https://twitter.com/BlakeRobMills). Download the file for the best resolution!
 
+## [Chocolate (18 Jane 2022)](https://twitter.com/BlakeRobMills/status/1483827489331945480)
+
+[Full Plot](https://raw.githubusercontent.com/BlakeRMills/TidyTuesday/main/2022/Chocolate%20(18%20Jan%202022)/Chocolate.png), [Full Code](https://github.com/BlakeRMills/TidyTuesday/blob/main/2022/Chocolate%20(18%20Jan%202022)/Chocolate%20(18%20Jan%202022).R)
+
+![ChocolatePlot](https://raw.githubusercontent.com/BlakeRMills/TidyTuesday/main/2022/Chocolate%20(18%20Jan%202022)/Chocolate.png)
+
+
+
+## [Spiders (7 Dec 2021)](https://twitter.com/BlakeRobMills/status/1468402777336565760)
+
+[Full Plot](https://raw.githubusercontent.com/BlakeRMills/TidyTuesday/main/2021/Spiders%20(7%20Dec%202021)/Spiders.png), [Full Code](https://github.com/BlakeRMills/TidyTuesday/blob/main/2021/Spiders%20(7%20Dec%202021)/Spiders%20(7%20Dec%202021).R)
+
+![SpiderPlot](https://raw.githubusercontent.com/BlakeRMills/TidyTuesday/main/2021/Spiders%20(7%20Dec%202021)/Spiders.png)
+
+
+## [#30DayMapChallenge Lines (2 Nov 2021)](https://twitter.com/BlakeRobMills/status/1455691876091170820)
+This week's #TidyTuesday was a crossover with the[#30DayMapChallenge](https://twitter.com/tjukanov) on Twitter. My full #30DayMapChallenge repository can be found [here](https://github.com/BlakeRMills/30DayMapChallenge). NOTE: The original post had an error with the London lanes, but it has not been corrected. 
+
+[Full Plot](https://github.com/BlakeRMills/TidyTuesday/blob/main/2021/Map%20Challenge-Bike%20Lanes%20(2%20Nov%202021)/Day%202%20Lines%20Updated.png), [Full Code](https://github.com/BlakeRMills/TidyTuesday/blob/main/2021/Map%20Challenge-Bike%20Lanes%20(2%20Nov%202021)/Day%202%20(Lines).R)
+
+![BikeLanesPlot](https://github.com/BlakeRMills/TidyTuesday/blob/main/2021/Map%20Challenge-Bike%20Lanes%20(2%20Nov%202021)/Day%202%20Lines%20Updated.png)
+
+
+
+## [Ultimate Running (26 Oct 2021)](https://twitter.com/BlakeRobMills/status/1453207974646849537)
+Inspired by a plot by [Cédric Scherer](https://www.behance.net/gallery/100683383/Travelling-to-Outer-Space)
+
+[Full Plot](https://raw.githubusercontent.com/BlakeRMills/TidyTuesday/main/2021/Ultimate%20Running%20(26%20Oct%202021)/UltimateRunning.png), [Full Code](https://github.com/BlakeRMills/TidyTuesday/blob/main/2021/Ultimate%20Running%20(26%20Oct%202021)/Ultimate%20Running%20(26%20Oct%202021).R)
+
+![RunningPlot](https://raw.githubusercontent.com/BlakeRMills/TidyTuesday/main/2021/Ultimate%20Running%20(26%20Oct%202021)/UltimateRunning.png)
+
+
+## [Pumpkins (19 Oct 2021)](https://twitter.com/BlakeRobMills/status/1450653824545394690)
+
+[Full Plot](https://raw.githubusercontent.com/BlakeRMills/TidyTuesday/main/2021/Pumpkins%20(19%20Oct%202021)/Pumpkins.png), [Full Code](https://github.com/BlakeRMills/TidyTuesday/blob/main/2021/Pumpkins%20(19%20Oct%202021)/Pumpkins%20(19%20Oct%202021).R)
+
+![PumpkinPlot](https://raw.githubusercontent.com/BlakeRMills/TidyTuesday/main/2021/Pumpkins%20(19%20Oct%202021)/Pumpkins.png)
+
+
+## [Global Seafood (12 Oct 2021)](https://twitter.com/BlakeRobMills/status/1448147215856377858)
+
+[Full Plot](https://github.com/BlakeRMills/TidyTuesday/blob/main/2021/Global%20Seafood%20(12%20Oct%202021)/Production%20Plot.png), [Full Code](https://github.com/BlakeRMills/TidyTuesday/blob/main/2021/Global%20Seafood%20(12%20Oct%202021)/Global%20Seafood%20(12%20Oct%202021).R)
+
+![SeafoodPlot](https://github.com/BlakeRMills/TidyTuesday/blob/main/2021/Global%20Seafood%20(12%20Oct%202021)/Production%20Plot.png)
+
 
 ## [Nursing Salaries (5 Oct 2021)](https://twitter.com/BlakeRobMills/status/1445624608099487747)
 For this week, I chose to finally use the {gganimate} package. Just a simple plot showing the changes in average annual salaries of nurses by state over time. Nothing too crazy, but I wanted to really focus on learning the ropes of making a gif in R. 
@@ -8,7 +53,6 @@ For this week, I chose to finally use the {gganimate} package. Just a simple plo
 [Full Plot](https://raw.githubusercontent.com/BlakeRMills/TidyTuesday/main/2021/Nurses%20(5%20Oct%202021)/NursesSalary.gif), [Full Code](https://github.com/BlakeRMills/TidyTuesday/blob/main/2021/Nurses%20(5%20Oct%202021)/Nurses%20(5%20Oct%202021).R)
 
 ![NursesPlot](https://raw.githubusercontent.com/BlakeRMills/TidyTuesday/main/2021/Nurses%20(5%20Oct%202021)/NursesSalary.gif)
-
 
 
 ## [NBER Papers (28 Sept 2021)](https://twitter.com/BlakeRobMills/status/1443047560034275329)
