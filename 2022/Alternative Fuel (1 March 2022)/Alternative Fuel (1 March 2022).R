@@ -8,13 +8,9 @@ library(MetBrewer)
 # Data
 stations <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-03-01/stations.csv')
 
+## Roads come from Natural Earth
 roads <- geojsonio::geojson_sf("~/Desktop/ne_10m_roads") %>% 
   filter(sov_a3=="USA", type=="Major Highway")
-
-grid <- roads %>% st_make_grid(n=100) %>%
-  st_as_sf(crs=4326) %>% mutate(geometry = x) %>% 
-  dplyr::mutate(row = row_number())
-
 
 # Aes
 showtext_auto()
@@ -23,6 +19,10 @@ darkRed <- met.brewer("Greek", 10)[1]
 medRed <- met.brewer("Greek", 10)[2]
 
 # Wrangling
+
+grid <- roads %>% st_make_grid(n=100) %>%
+  st_as_sf(crs=4326) %>% mutate(geometry = x) %>% 
+  dplyr::mutate(row = row_number())
 
 stations <- stations %>%
   filter(STATE %notin% c("AK", "HI")) %>%
@@ -50,7 +50,6 @@ for(j in unique(RoundCount$sumCap)){
     mutate(RoadCount=j)
   RoadDensity <-  rbind(RoadDensity, ColorRoad)
 }
-
 
 ggplot() + 
   geom_polygon(data=map_data("state"), aes(x=long, y=lat, group=group), color="#fadbbd", fill="#fdefe2") +
@@ -82,7 +81,4 @@ ggplot() +
   annotate(geom="text", x=-120.8, y=28.8, label="On the West Coast, the Los Angeles and\nSan Francisco/San Diego metro areas have\nthe highest concentration of stations.", family="Advent Pro", size=11, lineheight=0.3, color=medRed) +
   annotate(geom="text", x=-69.5, y=36.7, label="On the East Coast, the Boston\nmetro area has the highest\nconcentration of stations.", family="Advent Pro", size=11, lineheight=0.3, color=medRed)
 
-
-
 ggsave("~/Desktop/AlternativeFuel.png", width = 12, height = 8)
-
